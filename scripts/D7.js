@@ -68,9 +68,15 @@ const sommaArray2 =  function (num) {
 console.log("la somma utilizzando reduce é:", sommaArray2(numbers) )
 
 
-/* ESERCIZIO 6 (map)s
+/* ESERCIZIO 6 (map)
   Scrivi una funzione che, dato un array di soli numeri e un numero n come parametri, ritorni un secondo array con tutti i valori del precedente incrementati di n
 */
+const plusN = numbers.map((n) => {
+  return n + 1
+}
+)
+
+console.log('piu N', plusN)
 
 /* ESERCIZIO 7 (map)
   Scrivi una funzione che, dato un array di stringhe, ritorni un nuovo array contenente le lunghezze delle rispettive stringhe dell'array di partenza
