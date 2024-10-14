@@ -72,9 +72,8 @@ console.log("la somma utilizzando reduce é:", sommaArray2(numbers) )
   Scrivi una funzione che, dato un array di soli numeri e un numero n come parametri, ritorni un secondo array con tutti i valori del precedente incrementati di n
 */
 const plusN = numbers.map((n) => {
-  return n + 1
-}
-)
+  return n + 10
+})
 
 console.log('piu N', plusN)
 
